@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B1A872B1-86C8-47BE-A040-1E8FFCD00909}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{845D41B3-E277-430A-B8D0-30C328C63267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "src\Catalog\Catalog.API\Catalog.API.csproj", "{8D2C8E06-6087-4A22-A052-D8CB3A94FBEE}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9D0163EC-C561-46DA-8AC1-DF41936A092B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D2C8E06-6087-4A22-A052-D8CB3A94FBEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D2C8E06-6087-4A22-A052-D8CB3A94FBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D2C8E06-6087-4A22-A052-D8CB3A94FBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D2C8E06-6087-4A22-A052-D8CB3A94FBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D0163EC-C561-46DA-8AC1-DF41936A092B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0163EC-C561-46DA-8AC1-DF41936A092B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0163EC-C561-46DA-8AC1-DF41936A092B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0163EC-C561-46DA-8AC1-DF41936A092B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{845D41B3-E277-430A-B8D0-30C328C63267} = {B1A872B1-86C8-47BE-A040-1E8FFCD00909}
+		{8D2C8E06-6087-4A22-A052-D8CB3A94FBEE} = {845D41B3-E277-430A-B8D0-30C328C63267}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D140954E-16CF-4D49-836D-E9013E9C844C}
+	EndGlobalSection
+EndGlobal
