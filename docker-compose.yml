@@ -32,3 +32,10 @@ services:
           context: .
           dockerfile: src/Ordering/Ordering.API/Dockerfile
 
+
+    ocelotapigetaway:
+        image: ${DOCKER_REGISTRY-}ocelotapigetaway
+        build:
+          context: .
+          dockerfile: src/ApiGateway/OcelotApiGetaway/Dockerfile
+
